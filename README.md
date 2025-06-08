@@ -1,8 +1,8 @@
 
 # Aryan's Personal Portfolio
+Showcasing my favorite projects and experiences along my coding journey. 
 
-
-## Folder Structure
+## Project Folder Structure
 
 ```
 aryans-portfolio/
