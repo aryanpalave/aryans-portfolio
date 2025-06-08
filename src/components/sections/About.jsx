@@ -90,7 +90,7 @@ export const About = () => {
 
             <ul className="list-disc ml-6 text-gray-300">
               <li>
-                Developed AI chatbot tool using JavaScript, React, Python, and the Claude 3 Sonnet API to take log files as input and diagnose bugs for EC2 instance failures based on internal product documentation, reducing diagnosis time by 6%.
+                Developed AI chatbot tool using JavaScript, React, Python, and the Claude 3 Sonnet API to take log files as input and diagnose bugs for EC2 instance failures based on internal product documentation, reducing diagnosis time by 7%.
               </li>
               <li>
                 Architected 4 HAWA cloud solutions using AWS products such as S3, EC2, Lambda, Athena, and QuickSight.
@@ -103,7 +103,7 @@ export const About = () => {
           <div>
             <h4 className="font-semibold text-lg">Associated Students of the University of Washington</h4>
             <div className="flex justify-between">
-              <h4 className="font-semibold">Front End Web Developer</h4>
+              <h4 className="font-semibold">Front End Web Developer (Part Time)</h4>
               <h4 className="text-sm">(Apr 2024 – Apr 2025)</h4>
             </div>
 
@@ -128,13 +128,12 @@ export const About = () => {
                 Produced a key performance indicators (KPI) dashboard using Python, highlighting 30+ business analytics metrics, including growth, vendor churn rate, and average customer lifespan for app with 1M+ users. 
               </li>
               <li>
-                Developed a 7-parameter One-Class classification model for adding products to cart using text description, using numpy, scikit-learn, and libsvm libraries, achieving 97% accuracy.
-              </li>
+              Developed a multiclass text classification model to identify the correct product to add to cart based on natural language descriptions, achieving 97\% accuracy across N classes using Scikit-learn and Python              </li>
             </ul>
           </div>
 
             <br />
-
+          
           <div>
             <h4 className="font-semibold text-lg">University of Washington</h4>
             <div className="flex justify-between">
@@ -149,6 +148,22 @@ export const About = () => {
             </ul>
           </div>
 
+          <br />
+
+          <div>
+            <h4 className="font-semibold text-lg">Bloomz</h4>
+            <div className="flex justify-between">
+              <h4 className="font-semibold">Software Engineer Intern</h4>
+              <h4 className="text-sm">(Jun 2022 – Aug 2022)</h4>
+            </div>
+
+            <ul className="list-disc ml-6 text-gray-300">
+              <li>
+              Collaborated with company leadership at a startup (1M+ users) to build functional prototypes of client dashboard,
+              parent-teacher communication feature, and internal admin portal using Python, React.js, MySQL, and AWS
+              </li>
+            </ul>
+          </div>
 
           </div>
 
