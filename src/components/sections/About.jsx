@@ -3,13 +3,14 @@ import { RevealOnScroll } from "../RevealOnScroll";
 export const About = () => {
   const frontendSkills = [
     "React",
-    "Vue",
-    "TypeScript",
-    "TailwindCSS",
-    "Svelte",
+    "JavaScript",
+    "CSS",
+    "UI/UX",
+    "Figma",
+    "HTML"
   ];
 
-  const backendSkills = ["Node.js", "Python", "AWS", "MongoDB", "GraphQL"];
+  const backendSkills = ["Python", "AWS", "MongoDB", "Java", "R", "PHP", "C++"];
 
   return (
     <section
@@ -23,10 +24,10 @@ export const About = () => {
             About Me
           </h2>
 
-          <div className="rounded-xl p-8 border-white/10 border hover:-translate-y-1 transition-all">
+          <div className="rounded-xl p-8 border-white/10 border hover:-translate-y-1 transition-all mb-6">
             <p className="text-gray-300 mb-6">
-              Passionate developer with expertise in building scalable web
-              applications and creating innovative solutions.
+            An ambitious, hands-on, project-driven Informatics- Software Engineering student at the University of Washington-Seattle, 
+            deeply immersed in app development, data science, and machine learning. 
             </p>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -64,47 +65,93 @@ export const About = () => {
             </div>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-8">
-            <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all">
-              <h3 className="text-xl font-bold mb-4"> 🏫 Education </h3>
-              <ul className="list-disc list-inside text-gray-300 space-y-2">
-                <li>
-                  <strong> B.S. in Computer Science </strong> - XYZ University
-                  (2016-2020)
-                </li>
-                <li>
-                  Relevant Coursework: Data Structures, Web Development, Cloud
-                  Computing...
-                </li>
-              </ul>
-            </div>
-            <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all">
-              <h3 className="text-xl font-bold mb-4"> 💼 Work Experience </h3>
-              <div className="space-y-4 text-gray-300">
-                <div>
-                  <h4 className="font-semibold">
-                    {" "}
-                    Software Engineer at ABC Corp (2020 - Present){" "}
-                  </h4>
-                  <p>
-                    Developed and maintained microservices for cloud-based
-                    applications.
-                  </p>
-                </div>
-
-                <div>
-                  <h4 className="font-semibold">
-                    {" "}
-                    Intern at DEF Startups (2019){" "}
-                  </h4>
-                  <p>
-                    Assisted in building front-end components and integration
-                    REST APIs
-                  </p>
-                </div>
-              </div>
-            </div>
+          <div className="rounded-xl p-8 border-white/10 border hover:-translate-y-1 transition-all mb-6">
+          <h3 className="text-xl font-bold mb-4"> 🏫 Education </h3>
+            <p className="text-gray-300 mb-6">
+            <strong> B.S. in Informatics- Data Science / Software Engineering </strong> 
+            <p>University of Washington (2022-2026)</p>
+            </p>
+            <p className="text-gray-300 mb-6">
+            <strong> Relevant Coursework: </strong>  Data Structures and Algorithms, Machine Learning, Linear Algebra, Artificial Intelligence, Advanced Python, Database Systems, Statistical Methods, Computing and Systems, Computer Programming (I, II), Bash/C/C++
+            </p>
           </div>
+
+          <div className="rounded-xl p-8 border-white/10 border hover:-translate-y-1 transition-all">
+          <h3 className="text-xl font-bold mb-4"> 💼 Work Experience </h3>
+          <p className="text-gray-300 mb-6">
+            </p>
+            
+            <div>
+            <h4 className="font-semibold text-lg">Amazon Web Services</h4>
+            <div className="flex justify-between">
+              <h4 className="font-semibold">Cloud Engineer Intern</h4>
+              <h4 className="text-sm">(Jun – Aug 2024)</h4>
+            </div>
+
+            <ul className="list-disc ml-6 text-gray-300">
+              <li>
+                Developed AI chatbot tool using JavaScript, React, Python, and the Claude 3 Sonnet API to take log files as input and diagnose bugs for EC2 instance failures based on internal product documentation, reducing diagnosis time by 6%.
+              </li>
+              <li>
+                Architected 4 HAWA cloud solutions using AWS products such as S3, EC2, Lambda, Athena, and QuickSight.
+              </li>
+            </ul>
+          </div>
+
+          <br></br>
+
+          <div>
+            <h4 className="font-semibold text-lg">Associated Students of the University of Washington</h4>
+            <div className="flex justify-between">
+              <h4 className="font-semibold">Front End Web Developer</h4>
+              <h4 className="text-sm">(Apr 2024 – Apr 2025)</h4>
+            </div>
+
+            <ul className="list-disc ml-6 text-gray-300">
+              <li>
+                Prototyped and built the website and database infrastructure using Figma, React, HTML, JavaScript, and CSS with a SQL database to support the organization’s $1.5M annual budget for event operations.
+              </li>
+            </ul>
+          </div>
+
+
+          <br></br>
+          <div>
+            <h4 className="font-semibold text-lg">QuickSell</h4>
+            <div className="flex justify-between">
+              <h4 className="font-semibold">Software Engineer Intern</h4>
+              <h4 className="text-sm">(Jun – Aug 2023)</h4>
+            </div>
+
+            <ul className="list-disc ml-6 text-gray-300">
+              <li>
+                Produced a key performance indicators (KPI) dashboard using Python, highlighting 30+ business analytics metrics, including growth, vendor churn rate, and average customer lifespan for app with 1M+ users. 
+              </li>
+              <li>
+                Developed a 7-parameter One-Class classification model for adding products to cart using text description, using numpy, scikit-learn, and libsvm libraries, achieving 97% accuracy.
+              </li>
+            </ul>
+          </div>
+
+            <br />
+
+          <div>
+            <h4 className="font-semibold text-lg">University of Washington</h4>
+            <div className="flex justify-between">
+              <h4 className="font-semibold">Quantum Machine Learning Research Assistant</h4>
+              <h4 className="text-sm">(Jan 2023 – Jan 2024)</h4>
+            </div>
+
+            <ul className="list-disc ml-6 text-gray-300">
+              <li>
+                Designed and compiled 40+ quantum circuits using Qiskit for the Scaled QUantum IDentifier (SQUID), an open-source framework for exploring hybrid Quantum-Classical algorithms for classification problems under Professor Hsu.
+              </li>
+            </ul>
+          </div>
+
+
+          </div>
+
         </div>
       </RevealOnScroll>
     </section>
