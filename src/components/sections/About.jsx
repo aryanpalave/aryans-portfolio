@@ -90,10 +90,10 @@ export const About = () => {
 
             <ul className="list-disc ml-6 text-gray-300">
               <li>
-                Developed AI chatbot tool using JavaScript, React, Python, and the Claude 3 Sonnet API to take log files as input and diagnose bugs for EC2 instance failures based on internal product documentation, reducing diagnosis time by 7%.
+                Developed an AI chatbot tool using JavaScript + React + Python + Claude 3 Sonnet API to ingest log files and generate a summary detailing failure for AWS EC2 (Elastic Compute Cloud) instances, resulting in a 14% decrease in diagnosis time by engineers. 
               </li>
               <li>
-                Architected 4 HAWA cloud solutions using AWS products such as S3, EC2, Lambda, Athena, and QuickSight.
+              Architected and presented 4 cloud solutions using AWS products such as S3 (Simple Storage Service), Lambda, Athena, and QuickSight (stress-tested for 10M+ records & &lt;1s latency)
               </li>
             </ul>
           </div>
@@ -125,10 +125,9 @@ export const About = () => {
 
             <ul className="list-disc ml-6 text-gray-300">
               <li>
-                Produced a key performance indicators (KPI) dashboard using Python, highlighting 30+ business analytics metrics, including growth, vendor churn rate, and average customer lifespan for app with 1M+ users. 
-              </li>
+              Produced a KPI (Key Performance Indicators) dashboard using Python, highlighting 30+ metrics (growth, vendor churn rate, average customer lifespan, etc.) for Quicksell (1M+ users), improving customer retention by 19%              </li>
               <li>
-              Developed a multiclass text classification model to identify the correct product to add to cart based on natural language descriptions, achieving 97\% accuracy across N classes using Scikit-learn and Python              </li>
+              Developed a recommendation engine in Python (scikit-learn) to match customer product descriptions with vendor catalog items, achieving 97% top-1 match accuracy and boosting revenue by 8% through better product discovery             </li>
             </ul>
           </div>
 
@@ -143,28 +142,10 @@ export const About = () => {
 
             <ul className="list-disc ml-6 text-gray-300">
               <li>
-                Designed and compiled 40+ quantum circuits using Qiskit for the Scaled QUantum IDentifier (SQUID), an open-source framework for exploring hybrid Quantum-Classical algorithms for classification problems under Professor Hsu.
+              Compiled 40+ quantum circuits using Qiskit for the Scaled QUantum IDentifier (SQUID), an open-source framework for hybrid Quantum-Classical algorithms under Professor Hsu, reducing classification time for the MNIST dataset by 17% with results included in a research paper.
               </li>
             </ul>
           </div>
-
-          <br />
-
-          <div>
-            <h4 className="font-semibold text-lg">Bloomz</h4>
-            <div className="flex justify-between">
-              <h4 className="font-semibold">Software Engineer Intern</h4>
-              <h4 className="text-sm">(Jun 2022 – Aug 2022)</h4>
-            </div>
-
-            <ul className="list-disc ml-6 text-gray-300">
-              <li>
-              Collaborated with company leadership at a startup (1M+ users) to build functional prototypes of client dashboard,
-              parent-teacher communication feature, and internal admin portal using Python, React.js, MySQL, and AWS
-              </li>
-            </ul>
-          </div>
-
           </div>
 
         </div>
