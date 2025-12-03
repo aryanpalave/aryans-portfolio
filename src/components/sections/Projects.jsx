@@ -11,13 +11,15 @@ export const Projects = () => {
           <h2 className="text-3xl font-bold mb-8 bg-gradient-to-r from-blue-500 to-cyan-400 bg-clip-text text-transparent text-center">
             Featured Projects
           </h2>
+
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {/* EcoPower */}
             <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
               <h3 className="text-xl font-bold mb-2">EcoPower</h3>
               <p className="text-gray-400 mb-4">
-              <strong>1st Place Boeing 2024 AI / ML Innovation Challenge </strong>
-              Trained and presented ML models—including Random Forest, XGBoost, and Ridge Regression—to Boeing engineers to optimize aircraft APU usage, projecting a 10% reduction in ground operations fuel consumption.</p>
+                <strong>1st Place Boeing 2024 AI / ML Innovation Challenge </strong>
+                Trained and presented ML models—including Random Forest, XGBoost, and Ridge Regression—to Boeing engineers to optimize aircraft APU usage, projecting a 10% reduction in ground operations fuel consumption.
+              </p>
               <div className="flex flex-wrap gap-2 mb-4">
                 {["ML", "AI", "Python", "Competition"].map((tech, key) => (
                   <span
@@ -46,7 +48,6 @@ export const Projects = () => {
                   View Report →
                 </a>
               </div>
-
             </div>
 
             {/* JewelTalk */}
@@ -55,7 +56,7 @@ export const Projects = () => {
               <p className="text-gray-400 mb-4">
                 Interactive Python GenAI chatbot for mother’s jewelry store using the Gemini API 
                 (Vertex AI) to translate natural language questions into executable SQL queries for
-                 Google BigQuery and summarize the results.
+                Google BigQuery and summarize the results.
               </p>
               <div className="flex flex-wrap gap-2 mb-4">
                 {["Python", "Gemini API", "BigQuery", "Vertex AI"].map((tech, key) => (
@@ -107,17 +108,23 @@ export const Projects = () => {
               </div>
             </div>
 
-            {/* TownSquare */}
+            {/* AirDeck (replaces TownSquare) */}
             <div className="glass p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_4px_20px_rgba(59,130,246,0.1)] transition-all">
-              <h3 className="text-xl font-bold mb-2">TownSquare</h3>
+              <h3 className="text-xl font-bold mb-2">AirDeck</h3>
               <p className="text-gray-400 mb-4">
-                <strong>Winner of Best Impact Award at WINFO Club’s 12th Annual Hackathon</strong> (80+ teams).
-                Designed app that provides details on relevant bills, upcoming voting sessions, and 
-                volunteer opportunities according to user interests. 
-                
+                Hand-controlled arpeggiator + drum machine + audio-reactive visualizer using your webcam.
+                Built as an interactive web app combining gesture recognition, real-time sound generation, 
+                and generative visuals.
               </p>
               <div className="flex flex-wrap gap-2 mb-4">
-                {["Civic Tech", "Hackathon", "Design", "React Native"].map((tech, key) => (
+                {[
+                  "ThreeJS",
+                  "MediaPipe",
+                  "JavaScript",
+                  "Rosebud AI",
+                  "HTML5",
+                  "ToneJS",
+                ].map((tech, key) => (
                   <span
                     key={key}
                     className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 hover:-translate-y-0.5 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition"
@@ -126,27 +133,37 @@ export const Projects = () => {
                   </span>
                 ))}
               </div>
-              <div className="flex justify-center items-center">
+
+              <div className="flex justify-center items-center gap-6 my-4">
                 <a
-                  href="https://www.figma.com/design/dSJVvkKD3uFfBedq4wxNw4/TownSquare?node-id=226-2351"
+                  href="https://www.youtube.com/watch?v=x1m5P5PSKFw"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-blue-400 hover:text-blue-300 transition-colors my-4"
+                  className="text-blue-400 hover:text-blue-300 transition-colors"
                 >
-                  View Project →
+                  Video Demo →
+                </a>
+                <a
+                  href="https://github.com/aryanpalave/AirDeck"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-blue-400 hover:text-blue-300 transition-colors"
+                >
+                  Code →
                 </a>
               </div>
             </div>
           </div>
+
           <div className="flex justify-center mt-12">
-          <a
-            href="mailto:aryanpalave108@gmail.com"
-            className="border border-blue-500/50 text-blue-500 py-3 px-6 rounded font-medium transition-all duration-200 
-            hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(59,130,246,0.2)] hover:bg-blue-500/10"
-          >
-            Contact Me
-          </a>
-        </div>
+            <a
+              href="mailto:aryanpalave108@gmail.com"
+              className="border border-blue-500/50 text-blue-500 py-3 px-6 rounded font-medium transition-all duration-200 
+              hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(59,130,246,0.2)] hover:bg-blue-500/10"
+            >
+              Contact Me
+            </a>
+          </div>
         </div>
       </RevealOnScroll>
     </section>
