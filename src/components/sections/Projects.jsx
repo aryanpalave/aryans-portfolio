@@ -13,39 +13,71 @@ export const Projects = () => {
           </h2>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            {/* EcoPower */}
-            <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
-              <h3 className="text-xl font-bold mb-2">EcoPower</h3>
+            {/* StreamFlow (replaces SubletCentral) */}
+            <div className="glass p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_4px_20px_rgba(59,130,246,0.1)] transition-all">
+              <h3 className="text-xl font-bold mb-2">StreamFlow</h3>
               <p className="text-gray-400 mb-4">
-                <strong>1st Place Boeing 2024 AI / ML Innovation Challenge </strong>
-                Trained and presented ML models—including Random Forest, XGBoost, and Ridge Regression—to Boeing engineers to optimize aircraft APU usage, projecting a 10% reduction in ground operations fuel consumption.
+                StreamFlow is a real-time data pipeline that combines my passion for music with data engineering.
+                It ingests simulated streaming events, processes them in real-time, and transforms the data for
+                analytics—providing insights on song popularity, user activity, and demographics.
               </p>
               <div className="flex flex-wrap gap-2 mb-4">
-                {["ML", "AI", "Python", "Competition"].map((tech, key) => (
+                {["Kafka", "Spark Streaming", "dbt", "Docker", "Airflow", "Terraform", "GCP", "Python"].map((tech, key) => (
                   <span
                     key={key}
-                    className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 hover:shadow-[0_2px_8px_rgba(59,130,246,0.1)] transition-all"
+                    className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 hover:-translate-y-0.5 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition"
                   >
                     {tech}
                   </span>
                 ))}
               </div>
-              <div className="flex justify-center items-center gap-6 my-4">
+              <div className="flex justify-center items-center">
                 <a
-                  href="https://aryanpalave.github.io/ecopower-ml/"
+                  href="https://github.com/aryanpalave/streamflow"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-blue-400 hover:text-blue-300 transition-colors"
+                  className="text-blue-400 hover:text-blue-300 transition-colors my-4"
                 >
                   View Project →
                 </a>
+              </div>
+            </div>
+
+            {/* AirDeck */}
+            <div className="glass p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_4px_20px_rgba(59,130,246,0.1)] transition-all">
+              <h3 className="text-xl font-bold mb-2">AirDeck</h3>
+              <p className="text-gray-400 mb-4">
+                Hand-controlled arpeggiator + drum machine + audio-reactive visualizer using your webcam.
+                Built as an interactive web app combining gesture recognition, real-time sound generation, 
+                and generative visuals.
+              </p>
+              <div className="flex flex-wrap gap-2 mb-4">
+                {["ThreeJS", "MediaPipe", "JavaScript", "Rosebud AI", "HTML5", "ToneJS"].map((tech, key) => (
+                  <span
+                    key={key}
+                    className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 hover:-translate-y-0.5 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition"
+                  >
+                    {tech}
+                  </span>
+                ))}
+              </div>
+
+              <div className="flex justify-center items-center gap-6 my-4">
                 <a
-                  href="https://drive.google.com/file/d/1zS3AXVCiNf9riTWFRwousRTuz1KAc8i4/view"
+                  href="https://www.youtube.com/watch?v=x1m5P5PSKFw"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-blue-400 hover:text-blue-300 transition-colors"
                 >
-                  View Report →
+                  Video Demo →
+                </a>
+                <a
+                  href="https://github.com/aryanpalave/AirDeck"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-blue-400 hover:text-blue-300 transition-colors"
+                >
+                  Code →
                 </a>
               </div>
             </div>
@@ -80,76 +112,39 @@ export const Projects = () => {
               </div>
             </div>
 
-            {/* SubletCentral */}
-            <div className="glass p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_4px_20px_rgba(59,130,246,0.1)] transition-all">
-              <h3 className="text-xl font-bold mb-2">SubletCentral</h3>
+            {/* EcoPower */}
+            <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
+              <h3 className="text-xl font-bold mb-2">EcoPower</h3>
               <p className="text-gray-400 mb-4">
-                A central housing marketplace that allows America’s 21M college students to sublease apartments they aren’t using for the summer created using React, HTML, CSS, JavaScript and FireBase Realtime DB.
+                <strong>1st Place Boeing 2024 AI / ML Innovation Challenge </strong>
+                Trained and presented ML models—including Random Forest, XGBoost, and Ridge Regression—to Boeing engineers to optimize aircraft APU usage, projecting a 10% reduction in ground operations fuel consumption.
               </p>
               <div className="flex flex-wrap gap-2 mb-4">
-                {["React", "HTML", "CSS", "JavaScript", "Firebase"].map((tech, key) => (
+                {["ML", "AI", "Python", "Competition"].map((tech, key) => (
                   <span
                     key={key}
-                    className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 hover:-translate-y-0.5 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition"
+                    className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 hover:shadow-[0_2px_8px_rgba(59,130,246,0.1)] transition-all"
                   >
                     {tech}
                   </span>
                 ))}
               </div>
-              <div className="flex justify-center items-center">
+              <div className="flex justify-center items-center gap-6 my-4">
                 <a
-                  href="https://subletcentral.web.app"
+                  href="https://aryanpalave.github.io/ecopower-ml/"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-blue-400 hover:text-blue-300 transition-colors my-4"
+                  className="text-blue-400 hover:text-blue-300 transition-colors"
                 >
                   View Project →
                 </a>
-              </div>
-            </div>
-
-            {/* AirDeck (replaces TownSquare) */}
-            <div className="glass p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_4px_20px_rgba(59,130,246,0.1)] transition-all">
-              <h3 className="text-xl font-bold mb-2">AirDeck</h3>
-              <p className="text-gray-400 mb-4">
-                Hand-controlled arpeggiator + drum machine + audio-reactive visualizer using your webcam.
-                Built as an interactive web app combining gesture recognition, real-time sound generation, 
-                and generative visuals.
-              </p>
-              <div className="flex flex-wrap gap-2 mb-4">
-                {[
-                  "ThreeJS",
-                  "MediaPipe",
-                  "JavaScript",
-                  "Rosebud AI",
-                  "HTML5",
-                  "ToneJS",
-                ].map((tech, key) => (
-                  <span
-                    key={key}
-                    className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 hover:-translate-y-0.5 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition"
-                  >
-                    {tech}
-                  </span>
-                ))}
-              </div>
-
-              <div className="flex justify-center items-center gap-6 my-4">
                 <a
-                  href="https://www.youtube.com/watch?v=x1m5P5PSKFw"
+                  href="https://drive.google.com/file/d/1zS3AXVCiNf9riTWFRwousRTuz1KAc8i4/view"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-blue-400 hover:text-blue-300 transition-colors"
                 >
-                  Video Demo →
-                </a>
-                <a
-                  href="https://github.com/aryanpalave/AirDeck"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-blue-400 hover:text-blue-300 transition-colors"
-                >
-                  Code →
+                  View Report →
                 </a>
               </div>
             </div>

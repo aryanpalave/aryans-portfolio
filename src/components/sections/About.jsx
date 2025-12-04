@@ -79,7 +79,7 @@ export const About = () => {
             <div>
               <h4 className="font-semibold text-lg">Deloitte</h4>
               <div className="flex justify-between">
-                <h4 className="font-semibold">Software Engineer Intern</h4>
+                <h4 className="font-semibold">Software Engineer Intern (ML + Data)</h4>
                 <h4 className="text-sm">(Jun 2025 – Aug 2025)</h4>
               </div>
 
